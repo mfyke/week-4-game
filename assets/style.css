@@ -1,0 +1,109 @@
+body {
+	background-image: URL("images/hollywood-2.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+#charSelect {
+	display:block;
+	background-color:#FF0000;
+	text-align:center;
+}
+.smallPic {
+	width: 12%;
+}
+#fightingArea {
+	text-align:center;
+	position:absolute;
+	bottom:0px;
+}
+#sideBar {
+	float:right;
+}
+.sidebarPic {
+	width:125px;
+}
+#attackerFullHp {
+	display:block;
+	border: 2px solid #FF0000;
+	height: 40px;
+	float:right;
+	padding:0px;
+	margin-top:-10px;
+}
+#enemyFullHp {
+	display:block;
+	border: 2px solid #FF0000;
+	height: 40px;
+	float:right;
+	padding:0px;
+	margin-top:-10px;
+}
+#top {
+	margin-top:40px;
+}
+#attackerCurrentHp {
+	display:block;
+	height:40px;
+	width:100%;
+	background-color: #FF0000;
+	
+}
+#enemyCurrentHp {
+	display:block;
+	height:40px;
+	width:100%;
+	background-color: #FF0000;
+}
+#attackButton {
+	background-color: #f44336;
+	font-size: 32px;
+	border-radius: 8px;
+	color:#FFF;
+}
+#attackerTopPic {
+	border: 5px solid #FF0000;
+	width: 150px;
+}
+#enemyTopPic {
+	border: 5px solid #FF0000;
+	width: 150px;
+}
+#hpTextAttacker {
+	float:right;
+	font-size: 40px;
+	color:#FF0000;
+}
+#health {
+	text-align:center;
+}
+#hpTextCombatant {
+	float:right;
+	font-size: 40px;
+	color:#FF0000;
+}
+#enemyHealth {
+	text-align:center;
+}
+#startingText {
+	color: #FFF;
+	background-color:#FF0000;
+}
+.stats {
+	background-color: #FF0000;	
+	color:#FFF;
+}
+#opponentText {
+	background-color: #FF0000;
+	color:#FFF;
+}
+#winText {
+	background-color: #FF0000;
+	color:#FFF;
+	font-size:300px;
+}
+#loseText {
+	background-color: #FF0000;
+	color:#FFF;
+	font-size:300px;
+}

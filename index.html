@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>week-4-game</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="assets/style.css">	
+</head>
+<body>
+<div id="win">
+	<h1 id="winText" class="text-center">YOU WIN!</h1>
+</div>
+<div id="lose"> 
+	<h1 id="loseText" class="text-center">YOU LOSE!</h1>
+</div>
+<div id="instructionsStart">
+	<H1 class="text-center" id="startingText">CHOOSE YOUR FIGHTER!</H1>
+</div>
+	<div class="row">
+		<div id="top" class="col-md-12">
+			<div id="attackerTop" class="col-md-6">
+				<div id="attackerFullHp" class="col-md-10">	
+					<div id="attackerCurrentHp">
+					</div>			
+				</div>	<br><br><br>
+				<div id="health"><p id="hpTextAttacker"><p></div>			
+			</div>
+			<div id="enemyTop" class="col-md-6">
+				<div class="col-md-10" id="enemyFullHp">	
+					<div id="enemyCurrentHp">
+						
+					</div>				
+				</div>	<br><br><br>
+				<div id="enemyHealth"><p id="hpTextCombatant"></p></div>		
+			</div>
+		</div>
+	</div>
+	<div class="row text-center">
+		<button id="attackButton">Attack</button>
+	</div>
+	<div class="row">
+		<div id="fightingArea" class="col-md-offset-2 col-md-8">
+		</div>
+		<div id="charSelect" class="col-md-offset-2 col-md-8">
+		</div> <br>
+		<div id="fugginStats">
+			<div id="tracerStats" class="stats col-md-offset-2 col-md-1">
+				<h2 id="tracerStatValues">Tracer<br>AP: 16<br>HP: 150</h2>
+			</div>
+			<div id="genjiStats" class="stats col-md-1">
+				<h2 id="genjiStatValues">Genji<br>AP: 12<br>HP: 200</h2>
+			</div>
+			<div id="bastionStats" class="stats col-md-1">
+				<h2 id="bastionStatValues">Bastion<br>AP: 6<br>HP: 300</h2>
+			</div>
+			<div id="meiStats" class="stats col-md-1">
+				<h2 id="meiStatValues">Mei<br>AP: 8<br>HP: 250</h2>
+			</div>
+			<div id="roadhogStats" class="stats col-md-1">
+				<h2 id="roadhogStatValues">Roadhog<br>AP: 3<br>HP: 600</h2>
+			</div>
+			<div id="zaryaStats" class="stats col-md-1">
+				<h2 id="zaryaStatValues">Zarya<br>AP: 5<br>HP: 400</h2>
+			</div>
+			<div id="symmetraStats" class="stats col-md-1">
+				<h2 id="symmetraStatValues">Symmetra<br>AP: 7<br>HP: 275</h2>
+			</div>
+			<div id="zenyattaStats" class="stats col-md-1">
+				<h2 id="zenyattaStatValues">Zenyatta<br>AP: 13<br>HP: 175</h2>
+			</div>
+		</div>
+		<div id="sideBar" class="col-md-2">
+		<h2 id="opponentText">PICK YOUR OPPONENT!</h2>
+		</div>
+	</div>
+
+</body>
+<script type="text/javascript" src="assets/dick.js"></script>
+</html>
