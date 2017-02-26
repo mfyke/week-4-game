@@ -87,6 +87,7 @@ $(document).ready(function(){
 					$(icon).attr("id", "attackerTopPic")
 					$(icon).appendTo("#attackerTop");
 			var enemyFighter = $("<img>");
+					$(enemyFighter).attr("id","fightingAttacker");
 					$(enemyFighter).attr("alt", "");
 					$(enemyFighter).attr("src", shrek.attackerImage);
 					$(enemyFighter).appendTo("#fightingArea");
